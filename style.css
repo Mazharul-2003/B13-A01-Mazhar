@@ -73,6 +73,7 @@
     color: #469165;
     background-color: #ffffff;
     cursor: pointer;
+    transition: 0.4s ease;
 }
 
 .fa-circle-dot {
@@ -109,6 +110,7 @@
     cursor: pointer;
     margin-right: 10px;
     margin-bottom: 0;
+    transition: 0.4s ease;
 }
 
 .fa-arrow-right {
@@ -126,6 +128,7 @@
     text-align: center;
     cursor: pointer;
     margin-bottom: 0;
+    transition: 0.4s ease;
 }
 
 .fa-play {
@@ -287,6 +290,7 @@
     color: #ffffff;
     cursor: pointer;
     font-size: 15px;
+    transition: 0.4s ease;
     margin-bottom: 15px;
 }
 
@@ -296,6 +300,8 @@
     color: #627382;
 }
 /* Early Access Section End */
+
+/* Footer Section Start */
 footer {
     background-color: #001931;
     padding: 120px 0px 30px 0px;
@@ -326,3 +332,37 @@ footer {
     font-size: 16px;
     line-height: 24px;
 }
+/* Early Access Section End */
+
+/* Hover Effect Section */
+.btn-early-access button:hover {
+    background-color: #FAFAFA;
+    color: #30B868;
+    border: 1px solid #30B868;
+    transition: 0.4s ease;
+}
+
+.left-btn:hover {
+    background-color: transparent;
+    border: 1px solid white;
+    transition: 0.4s ease;
+}
+
+.right-btn:hover {
+    background-color: #469165;
+    border: 1px solid transparent;
+    transition: 0.4s ease;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.4);
+    transition: 0.5s ease;
+}
+
+.early-access-container button:hover {
+    background-color: transparent;
+    border: 1px solid #30B868;
+    color: #30B868;
+    transition: 0.4s ease;
+}
+/* Assignment Done Alhamdulillah */
