@@ -256,3 +256,43 @@
     color: #30B868;
 }
 /* Second Brain Section End */
+
+/* Early Access Section Start */
+.early-access-container {
+    background-color: #F7F6F2;
+    padding: 80px 40px;
+    border-radius: 12px;
+    margin-bottom: 120px;
+    text-align: center;
+}
+
+.early-access-container h1 {
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+#first-para {
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+    margin-bottom: 15px;
+}
+
+.early-access-container button {
+    padding: 12px 16px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #469165;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+#sec-para {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
+/* Early Access Section End */
