@@ -1,3 +1,50 @@
-body {
-    background-color: red;;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.font-inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* Common Class Start */
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+/* Common Class End */
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+}
+
+.menu-items ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu-items a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+}
+
+.btn-early-access button{
+    padding: 12px 16px;
+    background-color: #469165;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 13px;
 }
